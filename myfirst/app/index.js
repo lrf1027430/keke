@@ -9,7 +9,7 @@
 // app.appendChild(sub());
 // $('body').append('<p>look at me! now is ' + moment().format() + '</p>');
 
-//ES6 模式
+//ES6 模式 关闭或者打开
 import './css/main.scss';
 import generateText from './sub';
 import $ from 'jquery';
