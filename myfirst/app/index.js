@@ -1,3 +1,4 @@
+//CommonJs
 // var sub = require('./sub');
 // require('./css/main.scss');
 // var $ = require('jquery');
@@ -8,6 +9,7 @@
 // app.appendChild(sub());
 // $('body').append('<p>look at me! now is ' + moment().format() + '</p>');
 
+//ES6
 import './css/main.scss';
 import generateText from './sub';
 import $ from 'jquery';
