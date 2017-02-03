@@ -7,7 +7,7 @@
     "private": true
   },
   "scripts": {
-    "start": "webpack-dev-server --hot --inline",
+    "start": "webpack-dev-server --hot --inline --open --port 8999",
     "test": "webpack-dev-server --config webpack.test.config.js",
     "build": "webpack --progress --profile --colors --config webpack.production.config.js"
   },
